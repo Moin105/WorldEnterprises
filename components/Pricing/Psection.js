@@ -6,7 +6,6 @@ import c2 from '../../public/c2.png';
 import c  from '../../public/c.png';
 import e  from '../../public/e.png';
 import p  from '../../public/p.png';
-
 import Image from "next/image";
 
 

@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from '../../styles/Home.module.css';
 import svg from '../../public/svg.png';
-import c1 from '../../public/c1.png';
-import c2 from '../../public/c2.png';
-import c  from '../../public/c.png';
-import e  from '../../public/e.png';
-import p  from '../../public/p.png';
+// import c1 from '../../public/c1.png';
+// import c2 from '../../public/c2.png';
+// import c  from '../../public/c.png';
+// import e  from '../../public/e.png';
+// import p  from '../../public/p.png';
 
 import Image from "next/image";
 

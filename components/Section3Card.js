@@ -1,5 +1,5 @@
 import React from 'react'
-import svg from '../public/sc1.png';
+// import svg from '../public/sc1.png';
 import styles from '../styles/Home.module.css';
 import Image from "next/image";
 

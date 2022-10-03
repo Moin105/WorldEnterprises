@@ -5,9 +5,9 @@ import Header from '../components/Trades/Header'
 import styles from '../styles/Home.module.css'
 import Tags from '../components/Tags'
 import Map from '../components/Map'
-import AboutSection from '../components/Aboutus/AboutSection'
-import AboutBanner from '../components/Aboutus/AboutBanner'
-import Abtop from '../components/Aboutus/Abtop'
+// import AboutSection from '../components/Aboutus/AboutSection'
+// import AboutBanner from '../components/Aboutus/AboutBanner'
+// import Abtop from '../components/Aboutus/Abtop'
 // import '../components/Trades/Trades.css';
 export default function Contact() {
   return (

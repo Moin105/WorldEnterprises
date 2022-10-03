@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
 import svg from '../public/section3.png';
-import Image from "next/image";
-import Carousel from './Carousel';
+// import Image from "next/image";
+// import Carousel from './Carousel';
 import Section3Card from './Section3Card';
 
 import sv1 from '../public/sc1.png';

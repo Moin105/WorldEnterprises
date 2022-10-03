@@ -5,7 +5,6 @@ import envelope from '../../public/envelope.png';
 import clock from '../../public/clock.png';
 import logo from '../../public/logo2.png'
 import search from '../../public/search.png'
-
 import Image from "next/image";
 
 
