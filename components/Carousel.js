@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{Component}from 'react';
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import sv1 from '../public/sv1.png';
@@ -11,7 +11,8 @@ import sv7 from '../public/sv7.png';
 import sv8 from '../public/sv8.png';
 import sv9 from '../public/sv9.png';
 import Section5Card from './Section5Card';
-export default class extends React.Component {
+
+export default class Carousel extends Component {
   render() {
     return (
       <CarouselProvider 

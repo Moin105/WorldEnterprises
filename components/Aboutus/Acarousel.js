@@ -12,7 +12,7 @@ import Image from "next/image";
 const handleDragStart = (e) => e.preventDefault();
 
 const items = [
-    <figure className={styles.cimg}  onDragStart={handleDragStart} role="presentation"> 
+    <figure key={1} className={styles.cimg}  onDragStart={handleDragStart} role="presentation"> 
     <Image
     src={r1}
     alt="system"
@@ -20,7 +20,7 @@ const items = [
     objectFit="contain"
     />
 </figure>  ,
-    <figure className={styles.cimg}  onDragStart={handleDragStart} role="presentation"> 
+    <figure  key={2} className={styles.cimg}  onDragStart={handleDragStart} role="presentation"> 
     <Image
     src={r2}
     alt="system"
@@ -28,7 +28,7 @@ const items = [
     objectFit="contain"
     />
 </figure>  ,
-    <figure className={styles.cimg}  onDragStart={handleDragStart} role="presentation"> 
+    <figure  key={3} className={styles.cimg}  onDragStart={handleDragStart} role="presentation"> 
     <Image
     src={r3}
     alt="system"
@@ -36,7 +36,7 @@ const items = [
     objectFit="contain"
     />
 </figure>  ,
-    <figure className={styles.cimg}  onDragStart={handleDragStart} role="presentation"> 
+    <figure  key={4} className={styles.cimg}  onDragStart={handleDragStart} role="presentation"> 
     <Image
     src={r4}
     alt="system"
@@ -44,7 +44,7 @@ const items = [
     objectFit="contain"
     />
 </figure>  ,
-    <figure className={styles.cimg}  onDragStart={handleDragStart} role="presentation"> 
+    <figure  key={5} className={styles.cimg}  onDragStart={handleDragStart} role="presentation"> 
     <Image
     src={r5}
     alt="system"
