@@ -1,23 +1,11 @@
 import Head from 'next/head'
-// import Image from 'next/image'
-// import Banner from '../components/Banner'
 import Footer from '../components/Footer'
 import Header from '../components/Trades/Header'
-// import Header from '../components/Header'
-// import Section2 from '../components/Trades/Section2'
-// import Section3 from '../components/Section3'
-// import Section5 from '../components/Section5'
-// import Section6 from '../components/Section6'
-// import Section7 from '../components/Section7'
 import styles from '../styles/Home.module.css'
 import Tags from '../components/Tags'
-// import Tsection from '../components/Trades/Tsection'
-// import Tsection2 from '../components/Trades/Tsection2'
-// import Tsection3 from '../components/Trades/Tsection3'
 import Map from '../components/Map'
 import Psection from '../components/Pricing/Psection'
-import Contact from '../components/Contact'
-// import '../components/Trades/Trades.css';
+import Contacts from '../components/Contact'
 export default function Pricing() {
   return (
     <div className={styles.container}>
@@ -30,11 +18,8 @@ export default function Pricing() {
       <Header/>
       <Tags heading="Pricing"/>
       <Psection/>
-      
-      {/* <Tsection3/> */}
-      {/* <Tsection2/> */}
       <Map/>
-      <Contact/>
+      <Contacts/>
       <Footer/> 
       </div>
    

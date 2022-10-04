@@ -1,11 +1,13 @@
 import React,{useState} from 'react'
 import styles from '../styles/Home.module.css';
 
-function Contact() {
+function Contacts() {
     const [inputs, setInputs] = useState({
         name: "",
         email: "",
         message: "",
+        subject:"",
+        phonenumber:""
       });
       const handleChange = (e) => {
         setInputs({
@@ -73,19 +75,19 @@ function Contact() {
          <input
                         type='text'
                         name='name'
-                        id='name'
+                        id='phonenumber'
                         className={styles.input}
                         placeholder='Phone Number'
-                        value={inputs.name}
+                        value={inputs.phonenumbers}
                         onChange={handleChange}
                       />
                       <input
                         type='text'
                         name='email'
-                        id='email'
+                        id='subject'
                         placeholder='Subject *'
                         className={styles.input}
-                        value={inputs.email}
+                        value={inputs.subject}
                         onChange={handleChange}
                       />
          </div>
@@ -99,9 +101,9 @@ function Contact() {
                       onChange={handleChange}
                     />
          </form>
-      
+         <button className={styles.btun}>SEND MESSAGE</button>
     </div>
   )
 }
 
-export default Contact
+export default Contacts

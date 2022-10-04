@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Footer from '../components/Footer'
 import Header from '../components/Trades/Header'
 import styles from '../styles/Home.module.css'
+import Contacts from '../components/Contact'
 import Tags from '../components/Tags'
 import Map from '../components/Map'
 // import AboutSection from '../components/Aboutus/AboutSection'
@@ -21,6 +22,7 @@ export default function Contact() {
       <Header/>
       <Tags heading="Contact Us"/> 
       <Map/>
+      <Contacts/>
       <Footer/> 
       </div>
     </div>
