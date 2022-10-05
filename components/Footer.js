@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/Home.module.css';
+import Link from "next/link";
 
 
 function Footer() {
@@ -16,14 +17,13 @@ function Footer() {
               <h2 className={styles.h2}>COMPANY LINKS</h2>
               <div className={styles.lines}></div>
               <ul>
-                <li><p className={styles.p}>Home</p></li>
-                <li><p className={styles.p}>About Us</p></li>
-                <li><p className={styles.p}>Our Trades</p></li>
-                <li><p className={styles.p}>Pricing</p></li>
-                <li><p className={styles.p}>Contact Us</p></li>
+                    <a href="/"><p>Home</p></a> 
+                    <a href="/Aboutus"><p>About us</p></a>  
+                    <a href="/Trades"> <p>Services/Traders</p></a>
+                    <a href="/Pricing"><p>Pricing</p></a>
+                    <a href="/Contact"><p>Contact us</p></a>
               </ul>
            </div>
-
            <div className={styles.foot3}>
               <h2 className={styles.h2}>CONTACT INFO</h2>
               <div className={styles.lines}></div>
@@ -40,7 +40,7 @@ function Footer() {
 
               <div className={styles.footrow}>
                  <h3 className={styles.h3}>Email:</h3>
-                 <p className={styles.p}>johnmiller@worldenterprises.us</p>
+                 <p className={styles.p}><a href="mailto:johnmiller@worldenterprises.us">johnmiller@worldenterprises.us</a></p>
               </div>
               </ul>
            </div>

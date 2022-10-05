@@ -6,6 +6,7 @@ import clock from '../../public/clock.png';
 import logo from '../../public/logo2.png'
 import search from '../../public/search.png'
 import Image from "next/image";
+import Link from "next/link";
 
 
 function Header() {
@@ -69,11 +70,11 @@ function Header() {
                 </figure>    
                 <div className={styles.nav}>
                     <ul className={styles.ul}>
-                       <li>Home</li>
-                       <li>About us</li>
-                       <li>Services/Traders</li>
-                       <li>Pricing</li>
-                       <li>Contact us</li>
+                    <Link href="/"><li>Home</li></Link> 
+                    <Link href="/Aboutus"><li>About us</li></Link>  
+                    <Link href="/Trades"><li>Services/Traders</li></Link>
+                    <Link href="/Pricing"><li>Pricing</li></Link>
+                    <Link href="/Contact"><li>Contact us</li></Link>
                     </ul>
 
                     <figure className={styles.figure}>
