@@ -16,7 +16,7 @@ export default function Pricing() {
       </Head>
       <div className={styles.pricing}>
       <Header/>
-      <Tags heading="Pricing"/>
+      {/* <Tags heading="Pricing"/> */}
       <Psection/>
       <Map/>
       <Contacts/>

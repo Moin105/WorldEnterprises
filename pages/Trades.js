@@ -28,7 +28,7 @@ export default function Trades() {
       </Head>
       <div className={styles.trades}>
       <Header/>
-      <Tags heading="Our Trades"/>
+      {/* <Tags heading="Our Trades"/> */}
       <Tsection/>
       <Section6/>
       <Tsection3/>

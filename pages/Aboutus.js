@@ -19,7 +19,7 @@ export default function AboutUs() {
       </Head>
       <div className={styles.aboutus}>
       <Header/>
-      <Tags heading="About Us"/> 
+      {/* <Tags heading="About Us"/>  */}
       <Abtop/>
       <AboutBanner/>
       <AboutSection/>

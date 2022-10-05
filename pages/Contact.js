@@ -20,7 +20,7 @@ export default function Contact() {
       </Head>
       <div className={styles.aboutus}>
       <Header/>
-      <Tags heading="Contact Us"/> 
+      {/* <Tags heading="Contact Us"/>  */}
       <Map/>
       <Contacts/>
       <Footer/> 
