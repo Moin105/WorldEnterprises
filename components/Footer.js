@@ -17,11 +17,12 @@ function Footer() {
               <h2 className={styles.h2}>COMPANY LINKS</h2>
               <div className={styles.lines}></div>
               <ul>
-                    <a href="/"><p>Home</p></a> 
-                    <a href="/Aboutus"><p>About us</p></a>  
-                    <a href="/Trades"> <p>Services/Traders</p></a>
-                    <a href="/Pricing"><p>Pricing</p></a>
-                    <a href="/Contact"><p>Contact us</p></a>
+              <Link href="/"><p>Home</p></Link>
+
+                    <Link href="/Aboutus"><p>About us</p></Link>  
+                    <Link href="/Trades"><p>Services/Traders</p></Link>
+                    <Link href="/Pricing"><p>Pricing</p></Link>
+                    <Link href="/Contact"><p>Contact us</p></Link>
               </ul>
            </div>
            <div className={styles.foot3}>
@@ -40,7 +41,7 @@ function Footer() {
 
               <div className={styles.footrow}>
                  <h3 className={styles.h3}>Email:</h3>
-                 <p className={styles.p}><a href="mailto:johnmiller@worldenterprises.us">johnmiller@worldenterprises.us</a></p>
+                 <p className={styles.p}><Link href="mailto:johnmiller@worldenterprises.us">johnmiller@worldenterprises.us</Link></p>
               </div>
               </ul>
            </div>

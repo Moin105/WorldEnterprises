@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../styles/Home.module.css';
-
+import Link from "next/link";
 function AboutBanner() {
   return (
     <div className={styles.abban}>
@@ -8,7 +8,7 @@ function AboutBanner() {
             <h1 className={styles.abbanner}>
             EXCELLENCE IN CONSTRUCITON<span> SINCE 1981</span>
             </h1>
-           <a href="/Contact"> <button className={styles.abtn}>GET A QUOTE</button></a>
+           <Link href="/Contact"><button className={styles.abtn}>GET A QUOTE</button></Link>
         </div>
     </div>
   )

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../../styles/Home.module.css';
 import svg from '../../public/svg.png';
 import Image from "next/image";
-
+import Link from "next/link";
 
 function Tsection2() {
   return (
@@ -10,7 +10,7 @@ function Tsection2() {
         <div className={styles.usec}>
                 <div className={styles.wrapper}>
                     <p className={styles.lp}>Contractors & Construction Managers Since 1981</p>
-                    <a href="/Contact">  <button className={styles.quote}>GET A QUOTE</button></a>
+                    <Link href="/Contact"><button className={styles.quote}>GET A QUOTE</button></Link>
 
                 </div>   
         </div>
@@ -101,7 +101,7 @@ function Tsection2() {
                
                 <div className={styles.secdescription}>
                     <h3 className={styles.h3}>Industrial Estimating</h3>
-                    <p className={styles.p}>Our estimators are skilled in using an organized method to create thorough industrial estimating services. we can meet the industry's shifting demands</p>
+                    <p className={styles.p}>Our estimators are skilled in using an organized method to create thorough industrial estimating services. we can meet the industry&apos;s shifting demands</p>
                 </div>
             </div>
             <div className={styles.sectionbox}>

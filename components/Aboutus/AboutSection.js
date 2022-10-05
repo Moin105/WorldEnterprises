@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../../styles/Home.module.css';
 import svg from '../../public/svg.png';
+import Link from "next/link";
 // import c1 from '../../public/c1.png';
 // import c2 from '../../public/c2.png';
 // import c  from '../../public/c.png';
@@ -47,8 +48,7 @@ function AboutSection() {
                
                 <div className={styles.secdescription}>
                     <h3 className={styles.h3}>Fater Turnaround Time</h3>
-                    <p className={styles.p}>We offer construction estimating services with a quick turnaround of 24 to 48 hours.
-It shouldn't be difficult to estimate projects. Our staff of experienced estimators will provide an accurate cost estimate for your project. </p>
+                    <p className={styles.p}>We offer construction estimating services with a quick turnaround of 24 to 48 hours.It shouldn&apos;t be difficult to estimate projects. Our staff of experienced estimators will provide an accurate cost estimate for your project.</p>
                 </div>
             </div>
             <div className={styles.sectionbox}>
