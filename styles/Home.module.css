@@ -103,12 +103,12 @@
 
 .btnbox {
   display: flex;
-  margin: 100px 0px 0px 0px;
+  margin: 60px 0px 0px 0px;
   gap: 16px;
 }
 .btnbox .bootn {
-  background-color: #b8b8b8;
-  color: #FFBC13;
+  background-color: #FFBC13;
+  color: white;
   padding: 12px 23px;
   outline: none;
   border: none;
@@ -477,6 +477,7 @@
 .section3 .wrapper .carousel {
   width: 100%;
   display: flex;
+  height: 500px;
   justify-content: space-between;
   margin: 60px 0px 0px 0px;
 }
@@ -492,7 +493,7 @@
 
 .section4 {
   width: 100%;
-  padding: 103px 0px 118px 0px;
+  padding: 103px 0px 8px 0px;
 }
 .section4 .alin {
   display: flex;
@@ -530,10 +531,14 @@
   height: 166px;
   position: relative;
 }
+.section4 .wrapper .carousel {
+  height: 500px;
+}
 .section4 .wrapper .right {
   width: 48%;
   display: flex;
   flex-direction: column;
+  height: 500px;
   justify-content: flex-start;
 }
 .section4 .wrapper .right .lines {
@@ -606,7 +611,7 @@
 }
 .section5 .wrapper .h2 {
   color: black;
-  padding: 80px 0px 17px 0px;
+  padding: 20px 0px 17px 0px;
   font-weight: 600;
 }
 .section5 .wrapper .p {
@@ -1091,13 +1096,15 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 1920px;
-  gap: 19px;
+  width: 95%;
+  margin: 0 auto;
   justify-content: space-around;
   padding: 72px 0px 0px 0px;
 }
 .trades .section2 .lsec .boxcontainer .sectionbox {
   margin-bottom: 60px;
   display: flex;
+  width: 24%;
   flex-direction: column;
   gap: 19px;
 }
@@ -1122,6 +1129,7 @@
 }
 .trades .section2 .lsec .boxcontainer .sectionbox .secdescription p {
   width: 382px;
+  text-align: left;
 }
 .trades .tsection3 {
   display: flex;
@@ -1194,6 +1202,7 @@
 }
 .trades .tsection3 .wrapper .section3row .boxcontainer .sectionbox .secdescription p {
   width: 382px;
+  text-align: left;
 }
 
 .pricing {
@@ -1660,6 +1669,7 @@
 }
 .aboutus .abtop .wrapper .abr {
   width: 41%;
+  height: 500px;
 }
 .aboutus .abtop .wrapper .abr li {
   background-color: #FFBC13 !important;
@@ -1864,8 +1874,8 @@
     gap: 16px;
   }
   .btnbox .bootn {
-    background-color: #b8b8b8;
-    color: #FFBC13;
+    background-color: #FFBC13;
+    color: #ffffff;
     padding: 12px 23px;
     outline: none;
     border: none;
@@ -3511,7 +3521,318 @@
     color: #FFFFFF;
   }
 }
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 1499px) {
+  .trades {
+    display: flex;
+    flex-direction: column;
+  }
+  .trades .card5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .trades .card5 .sectionbackground5 {
+    width: 330px;
+    height: 210px;
+    position: relative;
+  }
+  .trades .card5 .h3 {
+    color: black;
+    font-weight: 700;
+    padding: 32px 0px 16px 0px;
+  }
+  .trades .card5 .p {
+    color: black;
+    width: 320px;
+  }
+  .trades .card5 .btn {
+    background: #FFBC13;
+    color: white;
+    padding: 13px 41px;
+    border-radius: 8px;
+    margin-top: 24px;
+  }
+  .trades .header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #FFBC13;
+  }
+  .trades .header .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .trades .header .upperheader {
+    display: flex;
+    justify-content: flex-end;
+    gap: 26px;
+    padding: 15px 0px;
+  }
+  .trades .header .upperheader .box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .trades .header .upperheader .box .figure {
+    width: 20px;
+    height: 20px;
+    position: relative;
+  }
+  .trades .header .upperheader .box .p {
+    color: white;
+  }
+  .trades .header .bottomheader {
+    background-color: white;
+    color: black !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 0px;
+  }
+  .trades .header .bottomheader .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .trades .header .bottomheader .logo {
+    width: 251px;
+    position: relative;
+    height: 38px;
+  }
+  .trades .header .bottomheader .nav {
+    display: flex;
+    align-items: center;
+    gap: 96px;
+  }
+  .trades .header .bottomheader .nav .figure {
+    position: relative;
+    width: 19px;
+    height: 19px;
+  }
+  .trades .header .bottomheader .nav ul {
+    display: flex;
+    gap: 54px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .trades .header .bottomheader .nav ul li {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+  }
+  .trades .tags {
+    display: flex;
+    background-color: #F8F8F8;
+    padding: 70px 0px;
+    color: #000000;
+  }
+  .trades .tags .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .trades .tags .wrapper .like {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+  }
+  .trades .tags .wrapper .p {
+    color: #FFBC13;
+  }
+  .trades .tags .wrapper .p span {
+    color: #000000;
+  }
+  .trades .tsection {
+    margin: 100px 0px;
+  }
+  .trades .tsection .wrapper {
+    justify-content: space-around;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .trades .tsection .card5 {
+    margin-bottom: 30px;
+  }
+  .trades .section2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .trades .section2 .usec {
+    width: 100%;
+    padding: 38px 0px;
+    background-color: #FFBC13;
+  }
+  .trades .section2 .usec .wrapper {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .trades .section2 .usec .lp {
+    font-family: "Poppins";
+    font-style: normal;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .trades .section2 .usec .quote {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 15px 45px;
+    color: black;
+    background-color: #FFFFFF;
+  }
+  .trades .section2 .lsec {
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 135px 0px 148px 0px;
+  }
+  .trades .section2 .lsec .h2 {
+    color: black;
+  }
+  .trades .section2 .lsec .lines {
+    margin: 17px 0px 0px 0px;
+    width: 76px;
+    height: 3px;
+    background-color: #FFBC13;
+  }
+  .trades .section2 .lsec .p {
+    width: 930px;
+    color: #000000;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+  }
+  .trades .section2 .lsec .boxcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    gap: 19px;
+    justify-content: space-around;
+    padding: 72px 0px 0px 0px;
+  }
+  .trades .section2 .lsec .boxcontainer .sectionbox {
+    margin-bottom: 30px;
+    display: flex;
+    width: 22%;
+    flex-direction: column;
+    gap: 19px;
+  }
+  .trades .section2 .lsec .boxcontainer .sectionbox .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    border-radius: 90px;
+    height: 75px;
+    background-color: #FFBC13;
+  }
+  .trades .section2 .lsec .boxcontainer .sectionbox .circle .svg {
+    width: 40px;
+    height: 40px;
+    position: relative;
+  }
+  .trades .section2 .lsec .boxcontainer .sectionbox .secdescription {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .trades .section2 .lsec .boxcontainer .sectionbox .secdescription p {
+    text-align: left;
+    width: 320px;
+  }
+  .trades .tsection3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .trades .tsection3 .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 135px 0px 148px 0px;
+  }
+  .trades .tsection3 .wrapper .h2 {
+    color: black;
+  }
+  .trades .tsection3 .wrapper .lines {
+    margin: 17px 0px 0px 0px;
+    width: 76px;
+    height: 3px;
+    background-color: #FFBC13;
+  }
+  .trades .tsection3 .wrapper .p {
+    width: 930px;
+    color: #000000;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+  }
+  .trades .tsection3 .wrapper .section3row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .trades .tsection3 .wrapper .section3row .barger {
+    width: 473px;
+    height: 548px;
+    position: relative;
+  }
+  .trades .tsection3 .wrapper .section3row .boxcontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 1920px;
+    gap: 19px;
+    justify-content: space-around;
+    padding: 72px 0px 0px 0px;
+  }
+  .trades .tsection3 .wrapper .section3row .boxcontainer .sectionbox {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+  }
+  .trades .tsection3 .wrapper .section3row .boxcontainer .sectionbox .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    border-radius: 90px;
+    height: 75px;
+    background-color: #FFBC13;
+  }
+  .trades .tsection3 .wrapper .section3row .boxcontainer .sectionbox .circle .svg {
+    width: 40px;
+    height: 40px;
+    position: relative;
+  }
+  .trades .tsection3 .wrapper .section3row .boxcontainer .sectionbox .secdescription {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .trades .tsection3 .wrapper .section3row .boxcontainer .sectionbox .secdescription p {
+    width: 320px;
+    text-align: left;
+  }
+}
+@media only screen and (max-width: 1400px) {
   .h1 {
     font-family: "Poppins";
     font-style: normal;
@@ -3611,8 +3932,8 @@
     gap: 16px;
   }
   .btnbox .bootn {
-    background-color: #b8b8b8;
-    color: #FFBC13;
+    background-color: #FFBC13;
+    color: #ffffff;
     padding: 12px 23px;
     outline: none;
     border: none;
@@ -4462,9 +4783,11 @@
     align-items: center;
   }
   .trades .header .bottomheader .logo {
-    width: 251px;
+    width: 221px;
     position: relative;
-    height: 38px;
+    height: 30px;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .trades .header .bottomheader .nav {
     display: flex;
@@ -4486,7 +4809,7 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: #000000;
   }
@@ -4567,7 +4890,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 135px 0px 148px 0px;
+    padding: 75px 0px 48px 0px;
   }
   .trades .section2 .lsec .h2 {
     color: black;
@@ -4579,10 +4902,11 @@
     background-color: #FFBC13;
   }
   .trades .section2 .lsec .p {
-    width: 930px;
+    width: 80%;
     color: #000000;
     text-align: center;
     margin: 10px 0px 0px 0px;
+    max-width: 610px;
   }
   .trades .section2 .lsec .boxcontainer {
     display: flex;
@@ -4619,7 +4943,7 @@
   }
   .trades .section2 .lsec .boxcontainer .sectionbox .secdescription p {
     text-align: left;
-    width: 320px;
+    width: 90%;
   }
   .trades .tsection3 {
     display: flex;
@@ -4770,9 +5094,11 @@
     align-items: center;
   }
   .pricing .header .bottomheader .logo {
-    width: 251px;
+    width: 221px;
     position: relative;
-    height: 38px;
+    height: 30px;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .pricing .header .bottomheader .nav {
     display: flex;
@@ -4794,7 +5120,7 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: #000000;
   }
@@ -5050,9 +5376,11 @@
     align-items: center;
   }
   .aboutus .header .bottomheader .logo {
-    width: 251px;
+    width: 221px;
     position: relative;
-    height: 38px;
+    height: 30px;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
   .aboutus .header .bottomheader .nav {
     display: flex;
@@ -5074,7 +5402,7 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: #000000;
   }
@@ -5158,6 +5486,7 @@
   }
   .aboutus .abtop .wrapper .abr {
     width: 41%;
+    height: 450px;
   }
   .aboutus .abtop .wrapper .abr li {
     background-color: #FFBC13 !important;
@@ -5219,7 +5548,7 @@
     gap: 12px;
   }
   .aboutus .absection .lsec .boxcontainer .sectionbox .secdescription p {
-    width: 320px;
+    width: 280px;
   }
   .aboutus .abban {
     display: flex;

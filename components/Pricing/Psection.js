@@ -17,7 +17,7 @@ function Psection() {
                <h2 className={styles.h2}>Pricing Packages</h2>
                <span className={styles.lines}></span>
                {/* <p className={styles.p}>World Enterprises provides material takeoff and building cost estimation services to its clients in the US, UK, Canada, Australia, and other nations. You may look up our popularity and profile on The Blue Book.</p> */}
-        <div className={styles.boxcontainer}>
+               <div className={styles.boxcontainer}>
             <div className={styles.sectionbox}>
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
@@ -31,8 +31,8 @@ function Psection() {
                 </div>
                
                 <div className={styles.secdescription}>
-                    <h3 className={styles.h3}>92% Bid-Hit Ratio</h3>
-                    <p className={styles.p}>Our bid success ratio is greater than 92%. If any of our clients need a complete estimate at the beginning of the project, we provide it as well.</p>
+                    <h3 className={styles.h3}>Affordable Prices</h3>
+                    <p className={styles.p}>We have many different types of building estimators on our team. They all have respectable credentials and Experience. Our prices for quantity take-offs and construction estimates are competitive.</p>
                 </div>
             </div>
             <div className={styles.sectionbox}>
@@ -48,8 +48,9 @@ function Psection() {
                 </div>
                
                 <div className={styles.secdescription}>
-                    <h3 className={styles.h3}>92% Bid-Hit Ratio</h3>
-                    <p className={styles.p}>Our bid success ratio is greater than 92%. If any of our clients need a complete estimate at the beginning of the project, we provide it as well.</p>
+                    <h3 className={styles.h3}>Fater Turnaround Time</h3>
+                    <p className={styles.p}>We offer construction estimating services with a quick turnaround of 24 to 48 hours.
+It shouldn't be difficult to estimate projects. Our staff of experienced estimators will provide an accurate cost estimate for your project. </p>
                 </div>
             </div>
             <div className={styles.sectionbox}>
@@ -65,8 +66,8 @@ function Psection() {
                 </div>
                
                 <div className={styles.secdescription}>
-                    <h3 className={styles.h3}>92% Bid-Hit Ratio</h3>
-                    <p className={styles.p}>Our bid success ratio is greater than 92%. If any of our clients need a complete estimate at the beginning of the project, we provide it as well.</p>
+                    <h3 className={styles.h3}>Certified Estimates</h3>
+                    <p className={styles.p}>We prepare diverse kind of building estimates. Our team excels in professional credentials and variable experience.  Highly Skilled Professional Team Offers quality estimates on competitive rates.</p>
                 </div>
             </div>
         </div>

@@ -60,14 +60,14 @@ function Header() {
 
             <div className={styles.bottomheader}>
             <div className={styles.wrapper}>
-                <figure className={styles.logo}>
+            <a href="/">    <figure className={styles.logo}>
                 <Image
                 src={logo}
                 alt="system"
                 layout="fill"
                 objectFit="contain"
                 />
-                </figure>    
+                </figure>    </a>
                 <div className={styles.nav}>
                     <ul className={styles.ul}>
                     <Link href="/"><li>Home</li></Link> 

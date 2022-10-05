@@ -17,35 +17,6 @@ function Contacts() {
       };
       const handleSubmit = (e) => {
         e.preventDefault();
-    
-        if (inputs.name == "" || inputs.email == "" || inputs.message == "") {
-            console.log("gee")
-        //   setShow(true);
-        //   setResponse("Enter Required Details");
-        //   setTimeout(function () {
-        //     setShow(false);
-        //   }, 5000);
-          return;
-        } 
-        // else {
-        //   const requestOptions = {
-        //     method: "POST",
-        //     headers: { "Content-Type": "application/json" },
-        //     body: JSON.stringify(inputs),
-        //   };
-    
-        //   fetch("http://www.ecareserve.com/api/contact_form", requestOptions)
-        //     .then((response) => response.json())
-        //     .then((res) => {
-        //       console.log(res);
-        //     //   setResponse(res.message);
-        //       console.log(res.message);
-        //     });
-        //   setShow(true);
-        //   setTimeout(function () {
-        //     setShow(false);
-        //   }, 1000);
-        // }
       };
   return (
     <div className={styles.contact}>
@@ -74,16 +45,16 @@ function Contacts() {
          <div className={styles.inputbox}>
          <input
                         type='text'
-                        name='name'
+                        name='phonenumber'
                         id='phonenumber'
                         className={styles.input}
                         placeholder='Phone Number'
-                        value={inputs.phonenumbers}
+                        value={inputs.phonenumber}
                         onChange={handleChange}
                       />
                       <input
                         type='text'
-                        name='email'
+                        name='subject'
                         id='subject'
                         placeholder='Subject *'
                         className={styles.input}

@@ -10,7 +10,8 @@ function Tsection2() {
         <div className={styles.usec}>
                 <div className={styles.wrapper}>
                     <p className={styles.lp}>Contractors & Construction Managers Since 1981</p>
-                    <button className={styles.quote}>GET A QUOTE</button>
+                    <a href="/Contact">  <button className={styles.quote}>GET A QUOTE</button></a>
+
                 </div>   
         </div>
         <div className={styles.lsec}>
@@ -31,8 +32,8 @@ function Tsection2() {
                 </div>
                
                 <div className={styles.secdescription}>
-                    <h3 className={styles.h3}>92% Bid-Hit Ratio</h3>
-                    <p className={styles.p}>Our bid success ratio is greater than 92%. If any of our clients need a complete estimate at the beginning of the project, we provide it as well.</p>
+                    <h3 className={styles.h3}>Certified Estimating</h3>
+                    <p className={styles.p}>We offer construction estimating services with a quick turnaround of 24 to 48 hours. Our team holds a vast range of construction estimators. All of them have credible accreditations.</p>
                 </div>
             </div>
             <div className={styles.sectionbox}>
@@ -48,8 +49,8 @@ function Tsection2() {
                 </div>
                
                 <div className={styles.secdescription}>
-                    <h3 className={styles.h3}>92% Bid-Hit Ratio</h3>
-                    <p className={styles.p}>Our bid success ratio is greater than 92%. If any of our clients need a complete estimate at the beginning of the project, we provide it as well.</p>
+                    <h3 className={styles.h3}>Commercial Estimating</h3>
+                    <p className={styles.p}>We are aware of how intricate commercial take-offs and estimations are. At the same time, our estimators have a solid base understanding of business projects</p>
                 </div>
             </div>
             <div className={styles.sectionbox}>
@@ -65,8 +66,8 @@ function Tsection2() {
                 </div>
                
                 <div className={styles.secdescription}>
-                    <h3 className={styles.h3}>92% Bid-Hit Ratio</h3>
-                    <p className={styles.p}>Our bid success ratio is greater than 92%. If any of our clients need a complete estimate at the beginning of the project, we provide it as well.</p>
+                    <h3 className={styles.h3}>Construction Takeoff</h3>
+                    <p className={styles.p}>We offer estimates in excel and pdf formats in a unique corporate structure. Our portfolio for this includes various residential, commercial, civil, electrical, etc.</p>
                 </div>
             </div>
             <div className={styles.sectionbox}>
@@ -82,8 +83,8 @@ function Tsection2() {
                 </div>
                
                 <div className={styles.secdescription}>
-                    <h3 className={styles.h3}>92% Bid-Hit Ratio</h3>
-                    <p className={styles.p}>Our bid success ratio is greater than 92%. If any of our clients need a complete estimate at the beginning of the project, we provide it as well.</p>
+                    <h3 className={styles.h3}>Residential Estimating</h3>
+                    <p className={styles.p}>For many years, we have offered very precise home estimates. Also, we have learned everything there is to know about residential projects throughout the years.</p>
                 </div>
             </div>
             <div className={styles.sectionbox}>
@@ -99,8 +100,8 @@ function Tsection2() {
                 </div>
                
                 <div className={styles.secdescription}>
-                    <h3 className={styles.h3}>92% Bid-Hit Ratio</h3>
-                    <p className={styles.p}>Our bid success ratio is greater than 92%. If any of our clients need a complete estimate at the beginning of the project, we provide it as well.</p>
+                    <h3 className={styles.h3}>Industrial Estimating</h3>
+                    <p className={styles.p}>Our estimators are skilled in using an organized method to create thorough industrial estimating services. we can meet the industry's shifting demands</p>
                 </div>
             </div>
             <div className={styles.sectionbox}>
@@ -116,8 +117,8 @@ function Tsection2() {
                 </div>
                
                 <div className={styles.secdescription}>
-                    <h3 className={styles.h3}>92% Bid-Hit Ratio</h3>
-                    <p className={styles.p}>Our bid success ratio is greater than 92%. If any of our clients need a complete estimate at the beginning of the project, we provide it as well.</p>
+                    <h3 className={styles.h3}>Construction Estimating</h3>
+                    <p className={styles.p}>Foundation, footing, slabs, blocks, pavers, driveways, garages, basements, and parking lots, are all taken into account in our concrete estimates.</p>
                 </div>
             </div>
             <div className={styles.sectionbox}>
@@ -133,8 +134,8 @@ function Tsection2() {
                 </div>
                
                 <div className={styles.secdescription}>
-                    <h3 className={styles.h3}>92% Bid-Hit Ratio</h3>
-                    <p className={styles.p}>Our bid success ratio is greater than 92%. If any of our clients need a complete estimate at the beginning of the project, we provide it as well.</p>
+                    <h3 className={styles.h3}>Preliminary Estimating</h3>
+                    <p className={styles.p}>Because we base our preliminary cost estimates on floor space, it is simple for your clients and architects to grasp and analyze the data.</p>
                 </div>
             </div>
             <div className={styles.sectionbox}>
@@ -150,8 +151,8 @@ function Tsection2() {
                 </div>
                
                 <div className={styles.secdescription}>
-                    <h3 className={styles.h3}>92% Bid-Hit Ratio</h3>
-                    <p className={styles.p}>Our bid success ratio is greater than 92%. If any of our clients need a complete estimate at the beginning of the project, we provide it as well.</p>
+                    <h3 className={styles.h3}>Project Leads</h3>
+                    <p className={styles.p}>We assist our clients by giving them project leads in addition to our many other services. We also enlist the aid of bidding networks and expert advice on bidding.</p>
                 </div>
             </div>
 
