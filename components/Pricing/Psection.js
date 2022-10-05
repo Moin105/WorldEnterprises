@@ -7,7 +7,7 @@ import c  from '../../public/c.png';
 import e  from '../../public/e.png';
 import p  from '../../public/p.png';
 import Image from "next/image";
-
+import Link from "next/link";
 
 function Psection() {
   return (
@@ -50,7 +50,7 @@ function Psection() {
                 <div className={styles.secdescription}>
                     <h3 className={styles.h3}>Fater Turnaround Time</h3>
                     <p className={styles.p}>We offer construction estimating services with a quick turnaround of 24 to 48 hours.
-It shouldn't be difficult to estimate projects. Our staff of experienced estimators will provide an accurate cost estimate for your project. </p>
+It shouldn&apos;t be difficult to estimate projects. Our staff of experienced estimators will provide an accurate cost estimate for your project. </p>
                 </div>
             </div>
             <div className={styles.sectionbox}>
@@ -89,7 +89,7 @@ It shouldn't be difficult to estimate projects. Our staff of experienced estimat
                     projects that require a few hours to get
                     estimated.
                 </p>
-            <button className={styles.upload}>  <a href="/Contact">Upload Plan</a></button>
+            <button className={styles.upload}><Link href="/Contact">Upload Plan</Link></button>
                 <p className={styles.p}>
                     After uploading the plans, fill out the
                     form on the contact page. We will 
@@ -113,7 +113,7 @@ It shouldn't be difficult to estimate projects. Our staff of experienced estimat
                 Our Rates Depend Upon The Scope 
                 And Size Of The Project
                 </p>
-            <button className={styles.upload}><a href="/Contact">Upload Plan</a></button>
+            <button className={styles.upload}><Link href="/Contact">Upload Plan</Link></button>
                 <p className={styles.p}>
                     Upload Plans In The Below Button, We 
                     Will Review And Quote In A Minute. After

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../styles/Home.module.css';
 import svg from '../public/svg.png';
 import Image from "next/image";
-
+import Link from "next/link";
 
 function Section2() {
   return (
@@ -10,7 +10,7 @@ function Section2() {
         <div className={styles.usec}>
                 <div className={styles.wrapper}>
                     <p className={styles.lp}>Contractors & Construction Managers Since 1981</p>
-                  <a href="/Contact">  <button className={styles.quote}>GET A QUOTE</button></a>
+                  <Link href="/Contact"><button className={styles.quote}>GET A QUOTE</button></Link>
                 </div>   
         </div>
         <div className={styles.lsec}>
@@ -99,7 +99,7 @@ function Section2() {
                
                 <div className={styles.secdescription}>
                     <h3 className={styles.h3}>Receive Estimate</h3>
-                    <p className={styles.p}>You will receive an estimate that will contain all the material & labor quantities with pricing. We deliver the estimate and take-off sheet in EXCEL or our template or the client's template, as per demand.</p>
+                    <p className={styles.p}>You will receive an estimate that will contain all the material & labor quantities with pricing. We deliver the estimate and take-off sheet in EXCEL or our template or the client&apos;s template, as per demand.</p>
                 </div>
             </div>
             <div className={styles.sectionbox}>
@@ -116,7 +116,7 @@ function Section2() {
                
                 <div className={styles.secdescription}>
                     <h3 className={styles.h3}>24/7 Customer Support</h3>
-                    <p className={styles.p}>We ensure that our customer service is accessible to you 24/7 even on closed holidays/ weekends. No matter where you are, you'll find satisfactory service and attention. We provide our customers with excellent timely services.</p>
+                    <p className={styles.p}>We ensure that our customer service is accessible to you 24/7 even on closed holidays/ weekends. No matter where you are, you&apos;ll find satisfactory service and attention. We provide our customers with excellent timely services.</p>
                 </div>
             </div>
 
