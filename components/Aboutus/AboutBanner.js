@@ -8,7 +8,7 @@ function AboutBanner() {
             <h1 className={styles.abbanner}>
             EXCELLENCE IN CONSTRUCITON<span> SINCE 1981</span>
             </h1>
-            <button className={styles.abtn}>GET A QUOTE</button>
+           <a href="/Contact"> <button className={styles.abtn}>GET A QUOTE</button></a>
         </div>
     </div>
   )

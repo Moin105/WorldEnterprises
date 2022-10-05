@@ -77,14 +77,14 @@ function Header() {
                     <Link href="/Contact"><li>Contact us</li></Link>
                     </ul>
 
-                    <figure className={styles.figure}>
+                    {/* <figure className={styles.figure}>
                     <Image
                     src={search}
                     alt="system"
                     layout="fill"
                     objectFit="contain"
                     />
-                    </figure> 
+                    </figure>  */}
 
                 </div>
             </div>
