@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from '../../styles/Home.module.css';
-import svg from '../../public/svg.png';
+import wd from '../../public/wd.png';
+import wcal from '../../public/wcal.png';
+import wclock from '../../public/wclock.png';
+
 import c1 from '../../public/c1.png';
 import c2 from '../../public/c2.png';
 import c  from '../../public/c.png';
@@ -22,7 +25,7 @@ function Psection() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={wd}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -39,7 +42,7 @@ function Psection() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={wclock}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -57,7 +60,7 @@ It shouldn&apos;t be difficult to estimate projects. Our staff of experienced es
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={wcal}
                             alt="system"
                             layout="fill"
                             objectFit="contain"

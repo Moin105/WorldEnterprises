@@ -1,6 +1,14 @@
 import React from 'react';
 import styles from '../../styles/Home.module.css';
-import svg from '../../public/svg.png';
+import t1 from '../../public/t1.png';
+import t2 from '../../public/t2.png';
+import t3 from '../../public/t3.png';
+import t4 from '../../public/t4.png';
+import t5 from '../../public/t5.png';
+import t6 from '../../public/t6.png';
+import t7 from '../../public/t7.png';
+import t8 from '../../public/t8.png';
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -23,7 +31,7 @@ function Tsection2() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={t1}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -40,7 +48,7 @@ function Tsection2() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={t2}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -57,7 +65,7 @@ function Tsection2() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={t3}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -74,7 +82,7 @@ function Tsection2() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={t4}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -91,7 +99,7 @@ function Tsection2() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={t5}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -108,7 +116,7 @@ function Tsection2() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={t6}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -125,7 +133,7 @@ function Tsection2() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={t7}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -142,7 +150,7 @@ function Tsection2() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={t8}
                             alt="system"
                             layout="fill"
                             objectFit="contain"

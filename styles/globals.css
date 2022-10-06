@@ -8,10 +8,15 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+  cursor: pointer;
 }
 
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+}
+
+ul li {
+  cursor: pointer;
 }/*# sourceMappingURL=globals.css.map */

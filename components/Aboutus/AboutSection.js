@@ -8,6 +8,9 @@ import Link from "next/link";
 // import e  from '../../public/e.png';
 // import p  from '../../public/p.png';
 
+import wd from '../../public/wd.png';
+import wcal from '../../public/wcal.png';
+import wclock from '../../public/wclock.png';
 import Image from "next/image";
 
 
@@ -21,7 +24,7 @@ function AboutSection() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={wd}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -38,7 +41,7 @@ function AboutSection() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={wclock}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -55,7 +58,7 @@ function AboutSection() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={wcal}
                             alt="system"
                             layout="fill"
                             objectFit="contain"

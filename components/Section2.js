@@ -1,6 +1,12 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
 import svg from '../public/svg.png';
+import f1 from '../public/f1.png';
+import f2  from '../public/f2.png';
+import f3 from '../public/f3.png';
+import f4  from '../public/f4.png';
+import f5  from '../public/f5.png';
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -38,7 +44,7 @@ function Section2() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={f3}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -55,7 +61,7 @@ function Section2() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={f2}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -72,7 +78,7 @@ function Section2() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={f4}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -89,7 +95,7 @@ function Section2() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={f1}
                             alt="system"
                             layout="fill"
                             objectFit="contain"
@@ -106,7 +112,7 @@ function Section2() {
                 <div className={styles.circle}>
                     <figure className={styles.svg}>
                             <Image
-                            src={svg}
+                            src={f5}
                             alt="system"
                             layout="fill"
                             objectFit="contain"

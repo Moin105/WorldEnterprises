@@ -48,6 +48,7 @@ line-height: 24px;
   display: flex;
   width: 85%;
   margin: 0px auto;
+  
 }
 .header::before{
   opacity: 0;
@@ -80,6 +81,7 @@ line-height: 24px;
   }
   .btn{
     background: #FFBC13;
+    cursor: pointer;
     color: white;
     padding:13px 41px ;
     border-radius: 8px;
@@ -101,12 +103,14 @@ line-height: 24px;
 display: flex;
 margin: 60px 0px 0px 0px;
 gap: 16px;
+
   .bootn{
   background-color: #FFBC13;
   color: white;
   padding: 12px 23px;
   outline: none;
   border: none;
+  cursor: pointer;
   border-radius: 12px;
   font-size: 18px;
 }
@@ -236,6 +240,7 @@ gap: 16px;
       display: flex;
       align-items: center;
       gap: 10px;
+      cursor: pointer;
       .figure{
         width: 20px;
         height: 20px;
@@ -254,6 +259,7 @@ gap: 16px;
     .logo{
      width: 251px;
      position: relative;
+     cursor:pointer;
      height: 38px;
     }
     .nav{
@@ -395,6 +401,7 @@ gap: 16px;
       font-style: normal;
       font-weight: 400;
       border: none;
+      cursor: pointer;
       outline: none;
       border-radius:8px ;
       font-size: 20px;
@@ -452,6 +459,13 @@ gap: 16px;
         display: flex;
         flex-direction: column;
         gap:12px;
+        .h3{
+          
+  white-space: nowrap; 
+  width: 90%; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+        }
         p{
           width: 382px;
         }
@@ -613,7 +627,7 @@ gap: 16px;
   flex-direction: column;
   justify-content: flex-start;
   .wrapper{
-    width: calc(100% - 410px );
+    width: calc(100% - 370px );
     justify-content: flex-start;
     flex-direction: column;
     .lines{
@@ -632,7 +646,7 @@ gap: 16px;
     }
     .btn{
       border: none;
-
+     cursor: pointer;
     }
 
   }
@@ -799,14 +813,26 @@ gap: 16px;
   .inputbox{
     display: flex;
     justify-content: space-between;
+    font-family: 'Poppins';
+    font-style: normal;
     input{
       width: 48%;
       padding: 19px 0px 19px 29px;
       margin: 10px 0px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #777777;
     }
   
   }
   .message{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+color: #777777;
     padding: 16px 31px 0px 31px;
     height: 213px;
     margin-bottom: 30px;
@@ -945,6 +971,7 @@ gap: 16px;
       color: white;
       padding:13px 41px ;
       border-radius: 8px;
+      cursor:pointer;
       margin-top: 24px;
   
   
@@ -998,6 +1025,7 @@ gap: 16px;
       padding: 32px 0px;
       .logo{
        width: 251px;
+       cursor:pointer;
        position: relative;
        height: 38px;
       }
@@ -1022,6 +1050,8 @@ gap: 16px;
           font-size: 16px;
           line-height: 24px;
           color: #000000;
+        }& :hover{
+          color: #FFBC13;
         }
        }
       }
@@ -1174,7 +1204,7 @@ color: #000000;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 135px 0px 148px 0px;
+    padding: 135px 0px 0px 0px;
     .h2{
       color: black;
     }
@@ -1195,6 +1225,7 @@ color: #000000;
       display: flex;
       width: 100%;
       justify-content: space-between;
+      align-items: flex-end;
       .barger{
         width: 573px;
         height: 648px;
@@ -1204,6 +1235,7 @@ color: #000000;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        height: 880px;
         max-width: 1920px;
         gap: 19px;
         justify-content: space-around;
@@ -1267,6 +1299,7 @@ color: #000000;
     }
     .btn{
       background: #FFBC13;
+      cursor: pointer;
       color: white;
       padding:13px 41px ;
       border-radius: 8px;
@@ -1322,7 +1355,7 @@ color: #000000;
       justify-content: space-between;
       padding: 32px 0px;
       .logo{
-       width: 251px;
+       width: 251px;cursor:pointer;
        position: relative;
        height: 38px;
       }
@@ -1347,6 +1380,8 @@ color: #000000;
           font-size: 16px;
           line-height: 24px;
           color: #000000;
+        }& :hover{
+          color: #FFBC13;
         }
        }
       }
@@ -1403,6 +1438,7 @@ color: #000000;
       font-weight: 400;
       border: none;
       outline: none;
+      cursor: pointer;
       border-radius:8px ;
       font-size: 20px;
       line-height: 30px;
@@ -1487,6 +1523,7 @@ color: #000000;
         width: 68px;
         position: relative;
         height: 68px;
+        cursor:pointer;
       }
       .upload{
         font-family: 'Poppins';
@@ -1562,7 +1599,7 @@ outline: none;
 //       margin: 10px 0px 0px 0px;
 //      }
 //     // boxcontainer
-//     .section3row{
+//     {
 //       display: flex;
 //       width: 100%;
 //       justify-content: space-between;
@@ -1712,7 +1749,7 @@ outline: none;
       padding: 32px 0px;
       .logo{
        width: 251px;
-       position: relative;
+       position: relative;cursor:pointer;
        height: 38px;
       }
       .nav{
@@ -1736,6 +1773,8 @@ outline: none;
           font-size: 16px;
           line-height: 24px;
           color: #000000;
+        }& :hover{
+          color: #FFBC13;
         }
        }
       }
@@ -2038,7 +2077,7 @@ color: #000000;
     .h3{
       color: black;
       font-weight: 700;
-      padding: 32px 0px 16px 0px;
+      padding: 22px 0px 16px 0px;
     }
     .p{
       color: black;
@@ -2219,6 +2258,7 @@ color: #000000;
       .logo{
        width: 251px;
        position: relative;
+       cursor:pointer;
        height: 38px;
       }
       .nav{
@@ -2396,6 +2436,7 @@ color: #000000;
         padding: 32px 0px 0px 0px;
         .sectionbox{
           margin-bottom: 30px;
+          width: 32%;
           display: flex;
           gap: 19px;
           .circle{
@@ -2413,11 +2454,12 @@ color: #000000;
             }
           }
         .secdescription{
+          width: 70%;
           display: flex;
           flex-direction: column;
           gap:12px;
           p{
-            width: 270px;
+            width: 90%;
           }
         }
         }
@@ -2957,6 +2999,7 @@ color: #000000;
         padding: 32px 0px;
         .logo{
          width: 251px;
+         cursor:pointer;
          position: relative;
          height: 38px;
         }
@@ -3132,7 +3175,7 @@ color: #000000;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      padding: 135px 0px 148px 0px;
+      padding: 135px 0px 0px 0px;
       .h2{
         color: black;
       }
@@ -3155,7 +3198,7 @@ color: #000000;
         justify-content: space-between;
         .barger{
           width: 473px;
-          height: 548px;
+          height: 535px;
           position: relative;
         }
         .boxcontainer{
@@ -3164,12 +3207,15 @@ color: #000000;
           flex-direction: column;
           flex-wrap: wrap;
           max-width: 1920px;
+          width: 28%;
+          height: 780px;
           gap: 19px;
           justify-content: space-around;
           padding: 72px 0px 0px 0px;
           .sectionbox{
             margin-bottom: 30px;
             display: flex;
+            width: 100%;
             flex-direction: column;
             gap: 19px;
             .circle{
@@ -3191,7 +3237,11 @@ color: #000000;
             flex-direction: column;
             gap:12px;
             p{
-              width: 320px;
+              width: 90%;overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-line-clamp: 3; 
+              -webkit-box-orient: vertical;
               text-align: left;
             }
           }
@@ -3297,6 +3347,7 @@ color: #000000;
         .logo{
          width: 251px;
          position: relative;
+         cursor:pointer;
          height: 38px;
         }
         .nav{
@@ -3460,6 +3511,7 @@ color: #000000;
           width: 68px;
           position: relative;
           height: 68px;
+          cursor:pointer;
         }
         .upload{
           font-family: 'Poppins';
@@ -4195,7 +4247,7 @@ color: #000000;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 135px 0px 148px 0px;
+    padding: 135px 0px 0px 0px;
     .h2{
       color: black;
     }
@@ -4218,7 +4270,7 @@ color: #000000;
       justify-content: space-between;
       .barger{
         width: 473px;
-        height: 548px;
+        height: 520px;
         position: relative;
       }
       .boxcontainer{
@@ -5442,6 +5494,7 @@ color: #000000;
             }
           .secdescription{
             display: flex;
+            width: 100%;
             flex-direction: column;
             gap:12px;
             p{
@@ -5465,7 +5518,7 @@ color: #000000;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding: 135px 0px 148px 0px;
+        padding: 135px 0px 0px 0px;
         .h2{
           color: black;
         }
@@ -5488,11 +5541,11 @@ color: #000000;
           justify-content: space-between;
           .barger{
             width: 473px;
-            height: 548px;
+            height: 500px;
             position: relative;
           }
           .boxcontainer{
-    
+            width: 25%;
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;

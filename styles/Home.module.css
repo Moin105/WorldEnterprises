@@ -85,6 +85,7 @@
 }
 .card5 .btn {
   background: #FFBC13;
+  cursor: pointer;
   color: white;
   padding: 13px 41px;
   border-radius: 8px;
@@ -112,6 +113,7 @@
   padding: 12px 23px;
   outline: none;
   border: none;
+  cursor: pointer;
   border-radius: 12px;
   font-size: 18px;
 }
@@ -238,6 +240,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  cursor: pointer;
 }
 .header .upperheader .box .figure {
   width: 20px;
@@ -256,6 +259,7 @@
 .header .bottomheader .logo {
   width: 251px;
   position: relative;
+  cursor: pointer;
   height: 38px;
 }
 .header .bottomheader .nav {
@@ -391,6 +395,7 @@
   font-style: normal;
   font-weight: 400;
   border: none;
+  cursor: pointer;
   outline: none;
   border-radius: 8px;
   font-size: 20px;
@@ -447,6 +452,12 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+.section2 .lsec .boxcontainer .sectionbox .secdescription .h3 {
+  white-space: nowrap;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .section2 .lsec .boxcontainer .sectionbox .secdescription p {
   width: 382px;
@@ -599,7 +610,7 @@
   justify-content: flex-start;
 }
 .section5 .wrapper {
-  width: calc(100% - 410px);
+  width: calc(100% - 370px);
   justify-content: flex-start;
   flex-direction: column;
 }
@@ -619,6 +630,7 @@
 }
 .section5 .wrapper .btn {
   border: none;
+  cursor: pointer;
 }
 
 .section6 {
@@ -780,13 +792,25 @@
 .contact .inputbox {
   display: flex;
   justify-content: space-between;
+  font-family: "Poppins";
+  font-style: normal;
 }
 .contact .inputbox input {
   width: 48%;
   padding: 19px 0px 19px 29px;
   margin: 10px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
 }
 .contact .message {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #777777;
   padding: 16px 31px 0px 31px;
   height: 213px;
   margin-bottom: 30px;
@@ -925,6 +949,7 @@
   color: white;
   padding: 13px 41px;
   border-radius: 8px;
+  cursor: pointer;
   margin-top: 24px;
 }
 .trades .header {
@@ -972,6 +997,7 @@
 }
 .trades .header .bottomheader .logo {
   width: 251px;
+  cursor: pointer;
   position: relative;
   height: 38px;
 }
@@ -998,6 +1024,9 @@
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+}
+.trades .header .bottomheader .nav ul :hover {
+  color: #FFBC13;
 }
 .trades .tags {
   display: flex;
@@ -1140,7 +1169,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 135px 0px 148px 0px;
+  padding: 135px 0px 0px 0px;
 }
 .trades .tsection3 .wrapper .h2 {
   color: black;
@@ -1161,6 +1190,7 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: flex-end;
 }
 .trades .tsection3 .wrapper .section3row .barger {
   width: 573px;
@@ -1171,6 +1201,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  height: 880px;
   max-width: 1920px;
   gap: 19px;
   justify-content: space-around;
@@ -1231,6 +1262,7 @@
 }
 .pricing .card5 .btn {
   background: #FFBC13;
+  cursor: pointer;
   color: white;
   padding: 13px 41px;
   border-radius: 8px;
@@ -1281,6 +1313,7 @@
 }
 .pricing .header .bottomheader .logo {
   width: 251px;
+  cursor: pointer;
   position: relative;
   height: 38px;
 }
@@ -1307,6 +1340,9 @@
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+}
+.pricing .header .bottomheader .nav ul :hover {
+  color: #FFBC13;
 }
 .pricing .tags {
   display: flex;
@@ -1361,6 +1397,7 @@
   font-weight: 400;
   border: none;
   outline: none;
+  cursor: pointer;
   border-radius: 8px;
   font-size: 20px;
   line-height: 30px;
@@ -1443,6 +1480,7 @@
   width: 68px;
   position: relative;
   height: 68px;
+  cursor: pointer;
 }
 .pricing .psection .lsec .pricingbox .upload {
   font-family: "Poppins";
@@ -1563,6 +1601,7 @@
 .aboutus .header .bottomheader .logo {
   width: 251px;
   position: relative;
+  cursor: pointer;
   height: 38px;
 }
 .aboutus .header .bottomheader .nav {
@@ -1588,6 +1627,9 @@
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+}
+.aboutus .header .bottomheader .nav ul :hover {
+  color: #FFBC13;
 }
 .aboutus .tags {
   display: flex;
@@ -1848,7 +1890,7 @@
   .card5 .h3 {
     color: black;
     font-weight: 700;
-    padding: 32px 0px 16px 0px;
+    padding: 22px 0px 16px 0px;
   }
   .card5 .p {
     color: black;
@@ -2020,6 +2062,7 @@
   .header .bottomheader .logo {
     width: 251px;
     position: relative;
+    cursor: pointer;
     height: 38px;
   }
   .header .bottomheader .nav {
@@ -2188,6 +2231,7 @@
   }
   .section2 .lsec .boxcontainer .sectionbox {
     margin-bottom: 30px;
+    width: 32%;
     display: flex;
     gap: 19px;
   }
@@ -2206,12 +2250,13 @@
     position: relative;
   }
   .section2 .lsec .boxcontainer .sectionbox .secdescription {
+    width: 70%;
     display: flex;
     flex-direction: column;
     gap: 12px;
   }
   .section2 .lsec .boxcontainer .sectionbox .secdescription p {
-    width: 270px;
+    width: 90%;
   }
   .section3 {
     background-image: url("../public/section3.png");
@@ -2721,6 +2766,7 @@
   }
   .trades .header .bottomheader .logo {
     width: 251px;
+    cursor: pointer;
     position: relative;
     height: 38px;
   }
@@ -2888,7 +2934,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 135px 0px 148px 0px;
+    padding: 135px 0px 0px 0px;
   }
   .trades .tsection3 .wrapper .h2 {
     color: black;
@@ -2912,7 +2958,7 @@
   }
   .trades .tsection3 .wrapper .section3row .barger {
     width: 473px;
-    height: 548px;
+    height: 535px;
     position: relative;
   }
   .trades .tsection3 .wrapper .section3row .boxcontainer {
@@ -2920,6 +2966,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     max-width: 1920px;
+    width: 28%;
+    height: 780px;
     gap: 19px;
     justify-content: space-around;
     padding: 72px 0px 0px 0px;
@@ -2927,6 +2975,7 @@
   .trades .tsection3 .wrapper .section3row .boxcontainer .sectionbox {
     margin-bottom: 30px;
     display: flex;
+    width: 100%;
     flex-direction: column;
     gap: 19px;
   }
@@ -2950,7 +2999,12 @@
     gap: 12px;
   }
   .trades .tsection3 .wrapper .section3row .boxcontainer .sectionbox .secdescription p {
-    width: 320px;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
     text-align: left;
   }
   .pricing {
@@ -3030,6 +3084,7 @@
   .pricing .header .bottomheader .logo {
     width: 251px;
     position: relative;
+    cursor: pointer;
     height: 38px;
   }
   .pricing .header .bottomheader .nav {
@@ -3191,6 +3246,7 @@
     width: 68px;
     position: relative;
     height: 68px;
+    cursor: pointer;
   }
   .pricing .psection .lsec .pricingbox .upload {
     font-family: "Poppins";
@@ -3766,7 +3822,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 135px 0px 148px 0px;
+    padding: 135px 0px 0px 0px;
   }
   .trades .tsection3 .wrapper .h2 {
     color: black;
@@ -3790,7 +3846,7 @@
   }
   .trades .tsection3 .wrapper .section3row .barger {
     width: 473px;
-    height: 548px;
+    height: 520px;
     position: relative;
   }
   .trades .tsection3 .wrapper .section3row .boxcontainer {
@@ -4938,6 +4994,7 @@
   }
   .trades .section2 .lsec .boxcontainer .sectionbox .secdescription {
     display: flex;
+    width: 100%;
     flex-direction: column;
     gap: 12px;
   }
@@ -4954,7 +5011,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 135px 0px 148px 0px;
+    padding: 135px 0px 0px 0px;
   }
   .trades .tsection3 .wrapper .h2 {
     color: black;
@@ -4978,10 +5035,11 @@
   }
   .trades .tsection3 .wrapper .section3row .barger {
     width: 473px;
-    height: 548px;
+    height: 500px;
     position: relative;
   }
   .trades .tsection3 .wrapper .section3row .boxcontainer {
+    width: 25%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
