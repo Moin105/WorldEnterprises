@@ -40,7 +40,7 @@ function Header() {
                 objectFit="contain"
                 />
                 </figure>
-                <p className={styles.p}>johnmiller@worldenterprises.us | mark@worldenterprises.us</p>
+                <p className={styles.p}>johnmiller@worldenterprises.us</p>
             </div>
             {/*box ends  */}   
             {/* box start */}

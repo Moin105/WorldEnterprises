@@ -1201,7 +1201,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 880px;
+  height: 900px;
   max-width: 1920px;
   gap: 19px;
   justify-content: space-around;
@@ -2967,7 +2967,7 @@
     flex-wrap: wrap;
     max-width: 1920px;
     width: 28%;
-    height: 780px;
+    height: 880px;
     gap: 19px;
     justify-content: space-around;
     padding: 72px 0px 0px 0px;
@@ -2977,7 +2977,7 @@
     display: flex;
     width: 100%;
     flex-direction: column;
-    gap: 19px;
+    gap: 9px;
   }
   .trades .tsection3 .wrapper .section3row .boxcontainer .sectionbox .circle {
     display: flex;
@@ -3862,7 +3862,7 @@
     margin-bottom: 30px;
     display: flex;
     flex-direction: column;
-    gap: 19px;
+    gap: 9px;
   }
   .trades .tsection3 .wrapper .section3row .boxcontainer .sectionbox .circle {
     display: flex;
@@ -5000,7 +5000,7 @@
   }
   .trades .section2 .lsec .boxcontainer .sectionbox .secdescription p {
     text-align: left;
-    width: 90%;
+    width: 99%;
   }
   .trades .tsection3 {
     display: flex;
@@ -5049,10 +5049,10 @@
     padding: 72px 0px 0px 0px;
   }
   .trades .tsection3 .wrapper .section3row .boxcontainer .sectionbox {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
-    gap: 19px;
+    gap: 9px;
   }
   .trades .tsection3 .wrapper .section3row .boxcontainer .sectionbox .circle {
     display: flex;

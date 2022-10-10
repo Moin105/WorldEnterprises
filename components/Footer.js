@@ -40,7 +40,7 @@ function Footer() {
 
               <div className={styles.footrow}>
                  <h3 className={styles.h3}>Email:</h3>
-                 <p className={styles.p}><Link href="mailto:johnmiller@worldenterprises.us"><p className={styles.p}>johnmiller@worldenterprises.us<br></br>mark@worldenterprises.us</p></Link></p>
+                 <p className={styles.p}><Link href="mailto:johnmiller@worldenterprises.us"><p className={styles.p}>johnmiller@worldenterprises.us</p></Link></p>
               </div>
               </ul>
            </div>

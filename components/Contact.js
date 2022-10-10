@@ -42,7 +42,7 @@ function Contacts() {
         body: JSON.stringify(inputs),
       };
 
-      fetch("https://www.admin.ecareserve.com/api/send_email", requestOptions)
+      fetch("https://globaltechnologia.org/qrcodeNew/public/api/send_email", requestOptions)
         .then((response) => response.json())
         .then((res) => {
           console.log(res);

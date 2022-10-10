@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from '../styles/Home.module.css';
 import Image from "next/image";
+import Link from "next/link";
+
 
 function ReadBox(props) {
   return (
@@ -15,7 +17,7 @@ function ReadBox(props) {
        </figure>
        <div className={styles.readmore}>
            <h2 className={styles.h2}>{props.heading}</h2>
-           <p className={styles.p}>Read More</p>
+           <Link href="/Trades"><p className={styles.p}>Read More</p></Link>
        </div>
     </div>
   )
