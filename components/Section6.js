@@ -33,7 +33,7 @@ function Section6() {
                 <div className={styles.bbox}>
                     <div className={styles.row}>
                         <h2 className={styles.h2}>
-                         1725
+                         12950
                         </h2>
                         <p className={styles.cc}><AiOutlinePlus/></p>
                     </div>
@@ -42,7 +42,7 @@ function Section6() {
                     </h2>
                 </div>
 
-                <div className={styles.bbox}>
+                {/* <div className={styles.bbox}>
                     <div className={styles.row}>
                         <h2 className={styles.h2}>
                         984
@@ -52,7 +52,7 @@ function Section6() {
                     <h2 className={styles.h2}>
                     Employees
                     </h2>
-                </div>
+                </div> */}
             
             </div>
         </div>            

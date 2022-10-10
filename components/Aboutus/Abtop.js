@@ -22,13 +22,13 @@ function Abtop() {
                        <p className={styles.h2}>Project Completed</p>
                     </div>
                     <div className={styles.ques}>
-                       <h2 className={styles.h}>1725  <p className={styles.cc}><AiOutlinePlus/></p></h2>
+                       <h2 className={styles.h}>12950  <p className={styles.cc}><AiOutlinePlus/></p></h2>
                        <p className={styles.h2}>Satisfied Clients</p>
                     </div>
-                    <div className={styles.ques}>
+                    {/* <div className={styles.ques}>
                        <h2 className={styles.h}>984  <p className={styles.cc}><AiOutlinePlus/></p></h2>
                        <p className={styles.h2}>Employees</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className={styles.abr}>
