@@ -92,7 +92,7 @@ It shouldn&apos;t be difficult to estimate projects. Our staff of experienced es
                     projects that require a few hours to get
                     estimated.
                 </p>
-            <button className={styles.upload}><Link href="/Contact">Upload Plan</Link></button>
+            <button className={styles.upload}><Link href="/Contact">Get a quote</Link></button>
                 <p className={styles.p}>
                     After uploading the plans, fill out the
                     form on the contact page. We will 
@@ -116,7 +116,7 @@ It shouldn&apos;t be difficult to estimate projects. Our staff of experienced es
                 Our Rates Depend Upon The Scope 
                 And Size Of The Project
                 </p>
-            <button className={styles.upload}><Link href="/Contact">Upload Plan</Link></button>
+            <button className={styles.upload}><Link href="/Contact">Get a quote</Link></button>
                 <p className={styles.p}>
                     Upload Plans In The Below Button, We 
                     Will Review And Quote In A Minute. After

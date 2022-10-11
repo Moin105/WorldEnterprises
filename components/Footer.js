@@ -48,7 +48,7 @@ function Footer() {
       </div>
       <div className={styles.lowerfooter}>
          <div className={styles.wrapper}>
-            <p className={styles.p}>© 2020 — World Enterprises. All Rights Reserved.</p>
+            <p className={styles.p}>© World Enterprises. All Rights Reserved.</p>
             <div className={styles.footbox}>
             <p className={styles.p}>HISTORY</p>
             <p className={styles.p}>FAQ</p>

@@ -27,7 +27,7 @@ function Banner() {
           <div className={styles.wrapper}>
             <h1 className={styles.h1}>
                  <span> World Enterprises:</span><br></br> Excellence in Construction 
-                  Estimation <span>since 1981</span>
+                  Estimation<br></br> <span>since 1981</span>
             </h1>
             <figure className={styles.drop}>
               <Image

@@ -1,9 +1,22 @@
-import React,{useState} from 'react'
+import React,{useState,useRef} from 'react'
 import styles from '../styles/Home.module.css';
 import Modal from './Modal';
+import emailjs from '@emailjs/browser';
 
 function Contacts() {
- 
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_s8tchhe', 'template_bg7o8pm', form.current, 's1gYgTlI67RlXZJ-z')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   const [show, setShow] = useState(false);
   const [response, setResponse] = useState("");
   const [inputs, setInputs] = useState({
@@ -27,28 +40,31 @@ function Contacts() {
   // setShow(false);
   const handleSubmit = (e) => {
     e.preventDefault();
-
+    console.log("inputs",inputs)
     if (inputs.name == "" || inputs.email == "" || inputs.message == "" || inputs.phonenumber == "" || inputs.subject == "") {
       setShow(true);
       setResponse("Enter Required Details");
       setTimeout(function () {
         setShow(false);
       }, 5000);
+      console.log("S",inputs)
+
       return;
     } else {
-      const requestOptions = {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(inputs),
-      };
+      // const requestOptions = {
+      //   method: "POST",
+      //   headers: { "Content-Type": "application/json" },
+      //   body: JSON.stringify(inputs),
+      // };
+      console.log("S",inputs)
 
-      fetch("https://globaltechnologia.org/qrcodeNew/public/api/send_email", requestOptions)
-        .then((response) => response.json())
-        .then((res) => {
-          console.log(res);
-          setResponse(res.message);
-          console.log(res.message);
-        });
+      // fetch("https://globaltechnologia.org/qrcodeNew/public/api/send_email", requestOptions)
+      //   .then((response) => response.json())
+      //   .then((res) => {
+      //     console.log(res);
+      //     setResponse(res.message);
+      //     console.log(res.message);
+      //   });
       setShow(true);
       setTimeout(function () {
         setShow(false);
@@ -58,7 +74,7 @@ function Contacts() {
   return (
     <div className={styles.contact}>
          <h2>Get in touch with us?</h2>
-         <form>
+         <form ref={form} onSubmit={sendEmail}>
          <div className={styles.inputbox}>
          <input
                         type='text'
@@ -110,7 +126,7 @@ function Contacts() {
                     />
          </form>
          {/* <button className={styles.button}  > */}
-         <button className={styles.btun} onClick={handleSubmit}>SEND MESSAGE</button>
+         <button className={styles.btun} onClick={sendEmail}>SEND MESSAGE</button>
          {show && <Modal message={response}/>}
     </div>
   )

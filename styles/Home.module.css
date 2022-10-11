@@ -5,7 +5,6 @@
   font-size: 54px;
   line-height: 81px;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .h2 {
@@ -1823,9 +1822,8 @@
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
-    line-height: 61px;
+    line-height: 51px;
     text-align: center;
-    text-transform: uppercase;
   }
   .h2 {
     font-family: "Poppins";
@@ -2642,6 +2640,12 @@
   .footer .upperfooter .wrapper .foot2 ul li {
     display: flex;
     align-items: center;
+    cursor: pointer;
+  }
+  .footer .upperfooter .wrapper .foot2 ul p {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
   }
   .footer .upperfooter .wrapper .foot2 .lines {
     width: 76px;
@@ -2665,6 +2669,11 @@
     flex-direction: column;
     width: 100%;
     gap: 16px;
+  }
+  .footer .upperfooter .wrapper .foot3 ul p {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
   }
   .footer .upperfooter .wrapper .foot3 ul .footrow {
     display: flex;
@@ -3894,9 +3903,8 @@
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
-    line-height: 61px;
+    line-height: 41px;
     text-align: center;
-    text-transform: uppercase;
   }
   .h2 {
     font-family: "Poppins";
