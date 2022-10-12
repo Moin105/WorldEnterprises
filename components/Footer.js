@@ -11,7 +11,7 @@ function Footer() {
            <div className={styles.foot1}>
               <h2 className={styles.h2}>ABOUT US</h2>
               <div className={styles.lines}></div>
-              <p className={styles.p}>Our expert team of construction estimators offers professional construction estimating services. With an in-hand experience of 15 years, we have a proven track record of delivering the right material estimates to our valuable clients for every construction trade within the fastest turnaround time.</p>
+              <p className={styles.p}>Our expert team of construction estimators offers professional construction estimating services. With an in-hand experience of more than 4 decades, we have a proven track record of delivering the right material estimates to our valuable clients for every construction trade within the fastest turnaround time.</p>
            </div>
            <div className={styles.foot2}>
               <h2 className={styles.h2}>COMPANY LINKS</h2>
@@ -30,17 +30,17 @@ function Footer() {
               <ul>
               <div className={styles.footrow}>
                  <h3 className={styles.h3}>Address:</h3>
-                 <p className={styles.p}>750 N Saint Paul st ste 250 DALLAS,TX, USA</p>
+                 <p className={styles.p}>750 N Saint Paul st#250 DALLAS,TX, USA</p>
               </div>
            
               <div className={styles.footrow}>
                  <h3 className={styles.h3}>Phone:</h3>
-                 <p className={styles.p}>205-588-1306</p>
+                 <p className={styles.p}>+1(214)347-4388</p>
               </div>
 
               <div className={styles.footrow}>
                  <h3 className={styles.h3}>Email:</h3>
-                 <p className={styles.p}><Link href="mailto:johnmiller@worldenterprises.us"><p className={styles.p}>johnmiller@worldenterprises.us</p></Link></p>
+                 <p className={styles.p}><Link href="mailto:info@worldenterprises.us"><p className={styles.p}>info@worldenterprises.us</p></Link></p>
               </div>
               </ul>
            </div>

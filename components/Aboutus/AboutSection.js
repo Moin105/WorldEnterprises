@@ -50,7 +50,7 @@ function AboutSection() {
                 </div>
                
                 <div className={styles.secdescription}>
-                    <h3 className={styles.h3}>Fater Turnaround Time</h3>
+                    <h3 className={styles.h3}>Faster Turnaround Time</h3>
                     <p className={styles.p}>We offer construction estimating services with a quick turnaround of 24 to 48 hours.It shouldn&apos;t be difficult to estimate projects. Our staff of experienced estimators will provide an accurate cost estimate for your project.</p>
                 </div>
             </div>

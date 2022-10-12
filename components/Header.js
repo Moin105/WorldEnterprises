@@ -27,7 +27,7 @@ function Header() {
                     objectFit="contain"
                     />
                     </figure>
-                    <p className={styles.p}>205-588-1306</p>
+                    <p className={styles.p}>+1 (214) 347-4388</p>
                 </div>
             {/*box ends  */}
             {/* box start */}
@@ -40,11 +40,11 @@ function Header() {
                 objectFit="contain"
                 />
                 </figure>
-                <p className={styles.p}>johnmiller@worldenterprises.us</p>
+                <p className={styles.p}>info@worldenterprises.us</p>
             </div>
             {/*box ends  */}   
             {/* box start */}
-            {/* <div className={styles.box}>
+            <div className={styles.box}>
                 <figure className={styles.figure}>
                 <Image
                 src={clock}
@@ -54,7 +54,7 @@ function Header() {
                 />
                 </figure>
                 <p className={styles.p}>Mon-Fri: 8:00 - 17:00</p>
-            </div> */}
+            </div>
             {/*box ends  */}
             </div>
             <div className={styles.bottomheader}>
